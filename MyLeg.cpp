@@ -52,7 +52,7 @@
 			else{endAlfa = 90 - (teta2 - teta1);}
 			//================================================
 			double lgA = abs(endAlfa-startAlfa);
-			double lgB = abs(endBetta-startBetta);
+			double lgB = abs(endBetta-startBetta);	
 			double deltaStep;
 			if(lgA>=lgB){
 				 deltaStep = lgB/lgA;			  
@@ -60,6 +60,7 @@
 		}
 	}
 
+	//================================================================
 	void myLeg::getAngle(double _x, double _y){
 		double k4 = _x * _x + _y * _y;
 		double t = sqrt(k4);
