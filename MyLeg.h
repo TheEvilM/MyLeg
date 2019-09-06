@@ -1,6 +1,6 @@
 #ifndef MyLeg_h
 #define MyLeg_h
-#include <Arduino.h>
+
 #include <Servo.h>
 
 
