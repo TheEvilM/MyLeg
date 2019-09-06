@@ -1,5 +1,5 @@
 #include "MyLeg.h"
-#include <Arduino.h>
+
 #include <Servo.h>
 
 
